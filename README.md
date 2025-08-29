@@ -1,16 +1,24 @@
-# xoflutter
+# XOFlutter 🎮
 
-A new Flutter project.
+A simple and fun Tic-Tac-Toe (X and O) game built with **Flutter**.  
+Play against a friend on the same device with a clean UI, score tracking, and animations.  
 
-## Getting Started
+## ✨ Features
+- 2-player Tic-Tac-Toe gameplay (X vs O).
+- Restart game (keeps scores).
+- Reset scores (starts fresh).
+- Draw counter.
+- Winning highlight with confetti animation.
+- Modern UI built with Flutter.
 
-This project is a starting point for a Flutter application.
+## 🚀 Getting Started
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
+- [Flutter SDK](https://docs.flutter.dev/get-started/install)
+- Android Studio / VS Code
+- A physical device or emulator
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Run the app
+```bash
+flutter pub get
+flutter run
