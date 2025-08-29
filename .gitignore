@@ -1,0 +1,27 @@
+# Flutter/Dart/Pub
+.dart_tool/
+.packages
+.pub/
+build/
+flutter_*.png
+generated_plugin_registrant.dart
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods
+ios/Runner.xcworkspace
+ios/Flutter/App.framework
+
+# Android
+.gradle/
+local.properties
+*.keystore
+
+# VS Code / IntelliJ
+.vscode/
+.idea/
+*.iml
+
+# Others
+*.log
