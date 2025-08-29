@@ -1,24 +1,47 @@
-# XOFlutter 🎮
+# XOFlutter :video_game:
 
-A simple and fun Tic-Tac-Toe (X and O) game built with **Flutter**.  
-Play against a friend on the same device with a clean UI, score tracking, and animations.  
+A clean and modern **Tic-Tac-Toe (XO)** game built with **Flutter** for Android & iOS.  
+Two players can play on the same device, track scores, and celebrate wins with animations.  
 
-## ✨ Features
-- 2-player Tic-Tac-Toe gameplay (X vs O).
-- Restart game (keeps scores).
-- Reset scores (starts fresh).
-- Draw counter.
-- Winning highlight with confetti animation.
-- Modern UI built with Flutter.
+---
 
-## 🚀 Getting Started
+## :sparkles: Features
+- :dart: 3x3 Tic-Tac-Toe grid  
+- :busts_in_silhouette: Two-player mode (same device)  
+- :arrows_counterclockwise: Restart button (reset board)  
+- :wastebasket: Reset scores button  
+- :trophy: Score counter (X, O, and Draws)  
+- :tada: Confetti animation when someone wins  
+- :star2: Player turn highlight  
 
-### Prerequisites
-- [Flutter SDK](https://docs.flutter.dev/get-started/install)
-- Android Studio / VS Code
-- A physical device or emulator
+---
 
-### Run the app
+## :camera_with_flash: Screenshots
+
+<p align="center">
+  <img src="screenshots/home.jpg" width="250" />
+  <img src="screenshots/win.jpg" width="250" />
+  <img src="screenshots/draw.jpg" width="250" />
+</p>
+
+---
+
+## :movie_camera: Demo
+<p align="center">
+  <video src="screenshots/demo.mp4" width="300" controls></video>
+</p>
+
+---
+
+## :rocket: Getting Started
+
 ```bash
+# Clone the repo
+git clone https://github.com/Deepanshu-Singh-Rathore/XOFlutter.git
+cd XOFlutter
+
+# Install dependencies
 flutter pub get
+
+# Run the app
 flutter run
